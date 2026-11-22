@@ -5,6 +5,9 @@ from pathlib import Path
 import pandas as pd
 from worldathletics import worldathletics
 
+# script based on kaijchang/worldathletics project to parse graph ql api from the world athletics site
+# data are saved in a csv file with a fixed schema to allow for easy appending and resuming of the script
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s",
